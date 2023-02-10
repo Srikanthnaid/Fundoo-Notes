@@ -11,10 +11,14 @@ export const newUserRegister = async (body) => {
   const salt = bcrypt.genSaltSync(saltRounds);
   const hash = bcrypt.hashSync(body.password, salt);
   body.password = hash;
-  const data = await User.create(body);
-  return data;
-
-  };
+  const data = await User.find({ email: body.email });
+  if (data.length !== 0) {
+    throw new Error('Already Exist EmailId');
+  } else {
+    const data = await User.create(body);
+    return data;
+  }
+};
 
 
 // user login
