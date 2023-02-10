@@ -4,6 +4,7 @@ import bcrypt from 'bcrypt';
 //import jwt
 import jwt from 'jsonwebtoken';
 
+
 //register new user
 export const newUserRegister = async (body) => {
   const saltRounds = 10;
@@ -12,7 +13,9 @@ export const newUserRegister = async (body) => {
   body.password = hash;
   const data = await User.create(body);
   return data;
-};
+
+  };
+
 
 // user login
 export const login = async (body) => {
@@ -20,14 +23,17 @@ export const login = async (body) => {
   if (data != null) {
     const result = await bcrypt.compare(body.password, data.password);
     if (result) {
-      var token = jwt.sign({firstname:data.firstname,email:data.email,id:data.id},process.env.SECRET_KEY);
+      var token = jwt.sign({ firstname: data.firstname, email: data.email, id: data.id }, process.env.SECRET_KEY);
       return token;
+      //console.log(`jwt token: ${token}`);
     }
     else {
       throw new Error("Invalid Password");
     }
   }
-  else {
+  else if (data === null) {
+    throw new Error("Please enter email and password");
+  } else {
     throw new Error("Invalid Email");
   }
 };

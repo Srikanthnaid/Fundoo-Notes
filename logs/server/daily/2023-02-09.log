@@ -1,0 +1,850 @@
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T02:07:39.131Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T02:07:39.205Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T02:08:43.122Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T02:08:43.179Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T02:08:51.267Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T02:08:51.316Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T02:16:06.697Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T02:16:06.771Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:24:07.762Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:24:07.804Z"}
+error: 
+    status - 500 
+    message - Error: Please enter email and password
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:33:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T03:25:04.727Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:30:00.560Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:30:00.597Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:30:05.938Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:30:05.986Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:30:17.410Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:30:17.447Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:30:38.392Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:30:38.478Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:31:10.464Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:31:10.519Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:31:21.147Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:31:21.183Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:33:58.753Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:33:58.803Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:40:07.520Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:40:07.561Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:40:23.376Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:40:23.413Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:40:31.147Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:40:31.187Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:32:23)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T03:40:37.466Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:41:26.101Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:41:26.152Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:41:33.415Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:41:33.455Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:32:22)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T03:41:46.423Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:42:09.307Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:42:09.340Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:42:16.395Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:42:16.426Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T03:42:28.177Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T03:42:28.211Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:15:55.194Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:15:55.261Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:22:57.684Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:22:57.736Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:23:47.610Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:23:47.653Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:23:58.194Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:23:58.250Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:24:10.036Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:24:10.077Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:24:17.932Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:24:17.975Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:24:34.475Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:24:34.521Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:24:46.566Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:24:46.620Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:24:55.840Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:24:55.883Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:25:02.087Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:25:02.154Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:25:09.674Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:25:09.727Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:25:23.302Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:25:23.367Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:25:50.005Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:25:50.058Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:26:01.987Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:26:02.027Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:26:31.215Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:26:31.248Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:26:38.229Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:26:38.285Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:26:48.913Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:26:48.958Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:27:04.408Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:27:04.454Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:27:11.687Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:27:11.748Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:27:27.071Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:27:27.133Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:27:34.842Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:27:34.873Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:27:46.280Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:27:46.320Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:28:05.728Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:28:05.817Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:28:17.599Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:28:17.663Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:29:52.366Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:29:52.417Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:30:01.552Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:30:01.601Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:30:13.311Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:30:13.347Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:30:21.200Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:30:56.292Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:30:56.343Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:31:04.588Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:31:04.650Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:31:13.551Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:31:13.599Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:31:24.387Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:31:24.424Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:32:18.553Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:32:18.589Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:32:26.850Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:32:26.892Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:32:43.903Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:32:43.953Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:32:53.319Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:32:53.358Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:33:03.060Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:33:03.102Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:33:17.908Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:33:17.973Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:33:27.500Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:33:27.557Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:33:52.126Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:34:02.118Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:34:02.166Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:34:12.732Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:34:12.764Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:34:20.960Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:34:21.012Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:34:29.362Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:34:29.408Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:34:38.733Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:34:38.778Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:34:46.234Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:34:46.275Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:34:55.049Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:34:55.090Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:35:13.449Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:35:13.491Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:35:24.421Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:35:24.458Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:35:41.456Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:35:41.504Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:35:49.312Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:35:49.351Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:38:23.952Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:38:23.991Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:38:30.622Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:38:30.669Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:38:35.583Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:38:35.632Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:38:43.394Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:38:43.428Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:39:07.799Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:39:07.839Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:39:18.862Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:39:18.904Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:39:26.271Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:39:26.304Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:39:34.245Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:39:34.293Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:39:52.879Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:39:52.923Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:40:03.587Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:40:03.631Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:40:18.325Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:40:18.403Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:40:26.821Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:40:26.867Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:40:59.550Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:40:59.591Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:41:14.130Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:41:14.165Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:41:24.077Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:41:24.131Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:41:40.604Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:41:40.637Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:41:52.738Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:41:52.786Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:42:00.752Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:42:00.784Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:42:17.935Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:42:17.974Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:42:23.092Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:42:23.131Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:43:10.534Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:43:10.583Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:43:17.321Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:43:17.366Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T04:44:54.141Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:44:54.179Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:45:00.465Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:45:14.782Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:45:31.352Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:45:53.795Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:46:26.171Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:46:52.603Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:47:01.333Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:47:10.352Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:47:22.844Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:47:30.971Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:47:38.565Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:47:58.465Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:48:10.549Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:48:20.391Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:48:32.678Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:48:40.498Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:49:07.575Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:49:30.287Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:49:42.229Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:49:47.684Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:49:57.598Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:50:15.361Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:50:23.787Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:50:32.723Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:50:42.497Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:50:53.542Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:51:06.242Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:51:12.169Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:51:21.102Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:51:30.647Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:51:39.410Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:51:45.360Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:51:53.492Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:52:08.310Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:52:15.949Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:58:14.241Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:58:21.656Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:58:31.887Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:58:38.226Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:58:48.397Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:58:55.916Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:59:32.243Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T04:59:57.809Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:00:15.632Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:00:25.757Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:01:20.900Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:01:32.840Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:01:38.788Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:01:46.327Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:01:55.680Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:02:10.448Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:02:21.809Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:02:30.517Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:02:39.126Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:03:02.565Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:03:08.213Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:03:16.004Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:03:26.358Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:03:34.381Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:03:53.417Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:04:01.293Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:04:20.655Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:04:32.590Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:04:45.577Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:04:53.455Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:05:05.850Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:05:18.239Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:05:27.990Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:06:00.119Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:06:07.344Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:06:16.216Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:06:24.537Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:06:35.580Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:06:44.079Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:06:57.462Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:07:08.283Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:07:15.274Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:07:31.835Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:07:38.121Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:07:46.983Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:07:55.226Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:08:07.296Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:08:19.752Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:08:31.304Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:08:46.001Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:08:56.550Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:09:11.980Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:09:19.315Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:09:31.518Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:10:38.318Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:11:51.304Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:12:13.927Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:13:21.595Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:13:39.945Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:14:07.722Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:14:13.268Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:14:21.357Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:14:28.968Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:14:56.812Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:15:08.539Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:16:26.921Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:17:31.575Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:17:48.231Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:30:34.804Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T05:31:05.579Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:03:09.255Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:03:09.296Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:04:10.858Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:04:10.920Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:04:38.575Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:04:38.627Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:05:34.476Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:05:34.550Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:06:27.258Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:06:27.302Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:06:38.572Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:06:38.625Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:07:14.532Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:07:19.881Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:08:06.037Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:08:22.205Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:09:36.223Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:09:55.498Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:10:18.745Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:10:24.989Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:10:58.468Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:11:13.870Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:12:10.503Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:16:42.173Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:16:49.712Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:16:49.744Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:17:05.579Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:17:21.496Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:19:00.515Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:23:02.894Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:23:02.931Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:23:18.825Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:23:25.225Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:23:38.500Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:23:45.917Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:27:45.908Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:27:51.063Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:31:40.833Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:33:08.935Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:33:08.971Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:34:47.835Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:34:47.867Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:34:52.478Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:34:52.511Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:35:16.465Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:35:16.503Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T06:40:22.585Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T06:44:56.683Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastname" is required 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T06:45:28.458Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo-Notes.users index: email_1 dup key: { email: "srikanthnaidu019@gmail.com" } 
+      url - /api/v1/users/Register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T06:46:38.117Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:297:11)
+    at ServerResponse.writeHead (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:288:8)
+    at write_ (node:_http_outgoing:826:9)
+    at ServerResponse.end (node:_http_outgoing:934:5)
+    at ServerResponse.send (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:20:5)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T06:46:38.125Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo-Notes.users index: email_1 dup key: { email: "srikanthnaidu019@gmail.com" } 
+      url - /api/v1/users/Register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T06:47:03.074Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:297:11)
+    at ServerResponse.writeHead (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:288:8)
+    at write_ (node:_http_outgoing:826:9)
+    at ServerResponse.end (node:_http_outgoing:934:5)
+    at ServerResponse.send (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:20:5)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T06:47:03.077Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo-Notes.users index: email_1 dup key: { email: "srikanthnaidu019@gmail.com" } 
+      url - /api/v1/users/Register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T06:47:18.434Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:297:11)
+    at ServerResponse.writeHead (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:288:8)
+    at write_ (node:_http_outgoing:826:9)
+    at ServerResponse.end (node:_http_outgoing:934:5)
+    at ServerResponse.send (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:20:5)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T06:47:18.435Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo-Notes.users index: email_1 dup key: { email: "srikanthnaidu019@gmail.com" } 
+      url - /api/v1/users/Register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T06:47:40.350Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:297:11)
+    at ServerResponse.writeHead (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:288:8)
+    at write_ (node:_http_outgoing:826:9)
+    at ServerResponse.end (node:_http_outgoing:934:5)
+    at ServerResponse.send (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:20:5)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T06:47:40.352Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T06:47:55.868Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T06:47:55.904Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo-Notes.users index: email_1 dup key: { email: "srikanthnaidu019@gmail.com" } 
+      url - /api/v1/users/Register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T06:48:02.383Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:297:11)
+    at ServerResponse.writeHead (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:288:8)
+    at write_ (node:_http_outgoing:826:9)
+    at ServerResponse.end (node:_http_outgoing:934:5)
+    at ServerResponse.send (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T06:48:02.394Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo-Notes.users index: email_1 dup key: { email: "srikanthnaidu019@gmail.com" } 
+      url - /api/v1/users/Register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T06:48:49.944Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:297:11)
+    at ServerResponse.writeHead (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:288:8)
+    at write_ (node:_http_outgoing:826:9)
+    at ServerResponse.end (node:_http_outgoing:934:5)
+    at ServerResponse.send (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T06:48:49.946Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: Fundoo-Notes.users index: email_1 dup key: { email: "srikanthnaidu019@gmail.com" } 
+      url - /api/v1/users/Register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T06:51:22.328Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:387:5)
+    at ServerResponse.writeHead (node:_http_server:297:11)
+    at ServerResponse.writeHead (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:288:8)
+    at write_ (node:_http_outgoing:826:9)
+    at ServerResponse.end (node:_http_outgoing:934:5)
+    at ServerResponse.send (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:646:15
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:265:14) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T06:51:22.330Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T06:52:21.932Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-09T06:56:27.512Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T07:07:55.803Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T07:11:44.594Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T07:14:48.149Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T07:15:46.697Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-09T07:25:05.652Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T07:31:43.994Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T07:31:44.025Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T08:27:00.134Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T08:27:47.267Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T08:27:47.323Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T08:33:00.327Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T08:35:36.542Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-09T08:35:50.217Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/63e4b0e770869004446121e5 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-09T08:43:40.457Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T08:44:47.260Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T08:44:47.358Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T08:44:56.242Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T08:44:56.330Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T08:45:21.632Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T08:45:21.700Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T08:47:05.974Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T08:47:06.020Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T11:14:47.067Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T11:14:47.153Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "cr" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/cr 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-09T13:23:26.538Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "create" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-09T13:23:35.788Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "create" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-09T13:24:17.512Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/create 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-09T13:26:09.162Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-09T13:28:42.628Z"}
+info: Connected to the database. {"timestamp":"2023-02-09T13:28:42.660Z"}
