@@ -55,4 +55,20 @@ export const forgotPassword = async (req, res, next) => {
 	} catch (error) {
 		next(error);
 	}
-}
+};
+/**
+ * reset password
+ * 
+ */
+export const resetPassword = async (req,res,next)=>{
+	try {
+		const data = await UserService.resetPassword(req.body);
+		res.status(HttpStatus.ACCEPTED).json({
+			code:HttpStatus.ACCEPTED,
+			data:data,
+			message:'password updated successfully 🗃 '
+		});
+	} catch (error) {
+		next(error);
+	}
+};

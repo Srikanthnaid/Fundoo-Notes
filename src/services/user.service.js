@@ -44,13 +44,26 @@ export const login = async (body) => {
 };
 
 //forgotpassword
-export const forgotPassword = async(body)=>{
-  const data = await User.findOne({email:body.email});
-  if(data!=null){
-    var token = jwt.sign({firstname:data.firstname,email:data.email},process.env.SECRET_KEY);
+export const forgotPassword = async (body) => {
+  const data = await User.findOne({ email: body.email });
+  if (data != null) {
+    var token = jwt.sign({ firstname: data.firstname, email: data.email }, process.env.SECRET_KEY);
     sendMail(body.email)
     return token;
-  }else{
+  } else {
     throw new Error("Invalid email")
   }
+};
+
+//resetpwd.
+export const resetPassword = async (body) => {
+  const saltRounds = 10;
+  const salt = bcrypt.genSaltSync(saltRounds);
+  const hash = bcrypt.hashSync(body.password, salt);
+  const data = await User.findOneAndUpdate({
+    email: body.email
+  },
+  { password: hash },
+  { new: true });
+  return data;
 }

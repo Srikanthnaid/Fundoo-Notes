@@ -5297,3 +5297,72 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T0
 info: Connected to the database. {"timestamp":"2023-02-13T04:39:15.458Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T04:39:33.107Z"}
 info: Connected to the database. {"timestamp":"2023-02-13T04:39:33.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:02:41.031Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:02:41.063Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpwd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-02-13T05:04:42.056Z"}
+error: 
+    status - 500 
+    message - Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+    at Object.hashSync (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\bcrypt\bcrypt.js:95:15)
+    at _callee4$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:62:23)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.resetPassword (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:59:27)
+    at _callee4$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:65:34)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at resetPassword (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:63:27)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/resetpwd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-13T05:05:17.730Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:06:16.790Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:06:16.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:06:44.225Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:06:44.254Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:08:31.921Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:08:31.950Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:08:39.806Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:08:39.841Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:36:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-13T05:09:10.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:11:33.101Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:11:33.131Z"}

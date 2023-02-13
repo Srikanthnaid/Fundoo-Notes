@@ -4775,3 +4775,60 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-02-13T04:33:03.631Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpwd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-02-13T05:04:42.056Z"}
+error: 
+    status - 500 
+    message - Error: data must be a string or Buffer and salt must either be a salt string or a number of rounds
+    at Object.hashSync (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\bcrypt\bcrypt.js:95:15)
+    at _callee4$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:62:23)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.resetPassword (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:59:27)
+    at _callee4$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:65:34)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at resetPassword (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:63:27)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/resetpwd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-13T05:05:17.730Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:36:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-13T05:09:10.752Z"}
