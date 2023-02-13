@@ -24,3 +24,15 @@ info: ::1 - - [10/Feb/2023:05:57:44 +0000] "POST /api/v1/users/Register HTTP/1.1
 
 info: ::1 - - [10/Feb/2023:05:59:13 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 90 "-" "PostmanRuntime/7.30.1"
 
+info: ::1 - - [10/Feb/2023:06:56:41 +0000] "POST /api/v1/users/send_mail HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [10/Feb/2023:09:01:11 +0000] "POST /api/v1/users/send_mail HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [10/Feb/2023:09:26:36 +0000] "POST /api/v1/users/send_mail HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [10/Feb/2023:09:29:51 +0000] "POST /api/v1/users/send_mail HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [10/Feb/2023:09:30:48 +0000] "POST /api/v1/users/send_mail HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [10/Feb/2023:09:32:11 +0000] "POST /api/v1/users/send_mail HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.1"
+

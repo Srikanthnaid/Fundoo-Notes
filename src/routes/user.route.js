@@ -8,6 +8,9 @@ const router = express.Router();
 router.post('/Register', newUserValidator, userController.registerNewUser);
 
 //route to login user
-router.post('/login',userController.login);
+router.post('/login', userController.login);
+
+//route to forgoy password.
+router.post('/forgotpwd', userController.forgotPassword)
 
 export default router;

@@ -365,3 +365,321 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-02-10T05:59:13.446Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T06:54:54.672Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T06:54:54.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T06:55:44.049Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T06:55:44.082Z"}
+error: 
+    status - 500 
+    message - ReferenceError: google is not defined
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:45:9)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at sendMail (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:43:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/send_mail 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-10T06:56:41.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:00:33.736Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:00:33.769Z"}
+error: 
+    status - 500 
+    message - ReferenceError: google is not defined
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:45:9)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at sendMail (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:43:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/send_mail 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-10T09:01:11.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:09:55.810Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:09:55.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:13:30.773Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:13:30.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:13:36.089Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:13:36.123Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:13:42.360Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:13:42.397Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:13:57.446Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:13:57.476Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:14:05.250Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:14:05.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:23:02.154Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:23:02.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:26:27.540Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:26:27.577Z"}
+error: 
+    status - 500 
+    message - ReferenceError: google is not defined
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:45:9)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at sendMail (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:43:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/send_mail 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-10T09:26:36.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:29:41.408Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:29:41.430Z"}
+error: 
+    status - 500 
+    message - ReferenceError: window is not defined
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:45:9)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at sendMail (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:43:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/send_mail 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-10T09:29:51.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:30:42.770Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:30:42.806Z"}
+error: 
+    status - 500 
+    message - ReferenceError: window is not defined
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:45:9)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at sendMail (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:43:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/send_mail 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-10T09:30:48.065Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T09:32:06.338Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T09:32:06.375Z"}
+error: 
+    status - 500 
+    message - ReferenceError: google is not defined
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:45:9)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at sendMail (C:\Users\srikanth naidu\Fundoo-Notes\src\controllers\/user.controller.js:43:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/send_mail 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-10T09:32:11.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-10T13:09:59.964Z"}
+info: Connected to the database. {"timestamp":"2023-02-10T13:10:00.022Z"}
