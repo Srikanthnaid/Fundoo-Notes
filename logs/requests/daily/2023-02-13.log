@@ -42,3 +42,17 @@ info: ::1 - - [13/Feb/2023:05:11:58 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1"
 
 info: ::1 - - [13/Feb/2023:05:12:35 +0000] "GET /api/v1/users/resetpwd HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.41"
 
+info: ::1 - - [13/Feb/2023:05:42:17 +0000] "POST /api/v1/users/Login HTTP/1.1" 500 51 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [13/Feb/2023:05:47:02 +0000] "POST /api/v1/users/Login HTTP/1.1" 500 142 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [13/Feb/2023:05:50:08 +0000] "POST /api/v1/users/Login HTTP/1.1" 500 39 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [13/Feb/2023:05:51:19 +0000] "POST /api/v1/users/Login HTTP/1.1" 500 39 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [13/Feb/2023:05:53:28 +0000] "POST /api/v1/users/Login HTTP/1.1" 500 136 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [13/Feb/2023:05:55:30 +0000] "POST /api/v1/users/forgotpwd HTTP/1.1" 202 260 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [13/Feb/2023:05:55:42 +0000] "POST /api/v1/users/Login HTTP/1.1" 500 199 "-" "PostmanRuntime/7.30.1"
+

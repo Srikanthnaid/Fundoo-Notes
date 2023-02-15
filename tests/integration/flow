@@ -1,0 +1,77 @@
+Unit Testing:= Unit testing is atype of software testing where individual software components are tested.
+			   
+Integration Testing:= Integration Testing is the process of testing the interface between two software units or modules.
+					  its focus is on determine the correct-ness of the interface
+					  and its aim to expose faults in the interaction between integration untis.
+					  
+					  
+
+		DIFFERENCE between Unit and Itegration testing
+
+				Unit-Testing                                              Integration-testing
+
+1.Here each module of the software is tested separate🤥         Here modules of the software are tested combined.
+
+2.Here unit testing is performed first of all testing           It performed after unt testing and before system testing.
+	processes.
+
+3.Unit testing is white-box testing                              Integration testing is black-box testing
+
+
+
+How to started with integration testing
+1.Prepare the test integration plan.
+2.Decide on the type of integration testing approach 
+3.Design test-casees,test scenarios and test scripts accordingly.
+4.Deploy the chosen modules together and get the integration test running.
+5.Track the defacts and record the test result of testing.
+6.Repeat the above steps until the complete system is tested.
+
+
+integration testing can be done in 3 ways.
+1.Big-Bang approach
+2.Top-Down approach
+3.Bottom-up approach
+
+
+
+BIG-BANG approach:-Combining all the modules once and verifying the functionality after completion of individual module testing
+
+
+Top-Down testing:-testing takes place from top to bottom.
+				  here high level modules are tested first and then low-level modules
+				  and finally integrating the lowel-level module to high-level to ensure the system is working as intended.
+
+
+
+in integration mocha is a javascript test framework that run on node.js. it makes us write simple asynchronous test.
+
+Mocha tests are written using describe and it blocks.
+
+Describe block define the Test-Suit
+it block define a test-case.
+
+describe('test suit name',functiom()=>{
+	it('test case name',async()=>{
+		//test code to implemented.
+	});
+});
+
+
+HOOKS
+
+hooks are the pre and post-conditions that run before and after your tests.
+
+there sre 4 types of hooks .
+1.before();
+2.beforeech();
+3.after();
+4.aftereach();
+
+befor():-Run once befor the all test-cases in the  suit
+
+beforeeach():- Run before each test-case in the suit;
+
+after():-Run once after the tests in the suit.
+
+aftereach():-run after each test-case in the suit.

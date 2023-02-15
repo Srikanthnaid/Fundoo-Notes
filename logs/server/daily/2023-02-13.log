@@ -256,3 +256,121 @@ error:
    {"timestamp":"2023-02-13T05:09:10.752Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:11:33.101Z"}
 info: Connected to the database. {"timestamp":"2023-02-13T05:11:33.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:42:12.773Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:42:12.803Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:36:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-13T05:42:17.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:43:55.893Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:43:55.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:44:20.122Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:44:20.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:45:08.392Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:45:08.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:46:48.938Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:46:48.969Z"}
+error: 
+    status - 500 
+    message - Error: "Invalid Password if you want reset password <a href=http://localhost:3000/api/v1/users/resetpwd"> </a>"
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:36:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-13T05:47:02.599Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:48:15.718Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:48:15.747Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:49:43.338Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:49:43.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:50:03.971Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:50:04.004Z"}
+error: 
+    status - 500 
+    message - Error: html
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:37:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-13T05:50:08.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:51:10.096Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:51:10.126Z"}
+error: 
+    status - 500 
+    message - Error: html
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:37:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-13T05:51:19.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:51:40.383Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:51:40.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:52:06.035Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:52:06.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:52:14.819Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:52:14.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:52:36.048Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:52:36.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:52:58.918Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:52:58.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:53:12.907Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:53:12.948Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password if you want to reset passwor click here http://localhost:3000/api/v1/users/resetpwd 
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:36:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-13T05:53:28.931Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:54:39.799Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:54:39.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:54:47.838Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:54:47.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:55:10.410Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:55:10.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:55:27.263Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:55:27.295Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password please select forgot password http://localhost:3000/api/v1/users/forgotpwd or reset passwor click here http://localhost:3000/api/v1/users/resetpwd 
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:36:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/Login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-13T05:55:42.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-13T05:58:53.363Z"}
+info: Connected to the database. {"timestamp":"2023-02-13T05:58:53.549Z"}

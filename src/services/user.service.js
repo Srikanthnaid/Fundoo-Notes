@@ -33,7 +33,7 @@ export const login = async (body) => {
       //console.log(`jwt token: ${token}`);
     }
     else {
-      throw new Error("Invalid Password");
+      throw new Error("Invalid Password please select forgot password http://localhost:3000/api/v1/users/forgotpwd or reset passwor click here http://localhost:3000/api/v1/users/resetpwd ");
     }
   }
   else if (data === null) {
