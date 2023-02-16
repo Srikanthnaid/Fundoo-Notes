@@ -100,3 +100,461 @@ info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:13:11 +0000] "POST /api/v1/users/logi
 
 info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:13:11 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
 
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:09 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:09 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:09 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:09 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:09 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:10 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:10 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:10 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:10 +0000] "POST /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:10 +0000] "POST /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:29:10 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:45 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:45 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:45 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:45 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:45 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:45 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "POST /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "POST /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 131 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 131 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 131 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "PUT /api/v1/notes/undefined/isArchive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "PUT /api/v1/notes/undefined/isTrash HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:33:46 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:11 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:11 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:11 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:11 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:11 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:11 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:11 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:11 +0000] "POST /api/v1/notes HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "POST /api/v1/notes HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "GET /api/v1/notes HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "GET /api/v1/notes/undefined HTTP/1.1" 500 131 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 131 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "PUT /api/v1/notes/undefined HTTP/1.1" 500 131 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "PUT /api/v1/notes/undefined/isArchive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "PUT /api/v1/notes/undefined/isTrash HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:37:12 +0000] "DELETE /api/v1/notes/undefined HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [15/Feb/2023:04:41:15 +0000] "POST /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [15/Feb/2023:04:41:25 +0000] "GET /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [15/Feb/2023:04:41:50 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [15/Feb/2023:04:42:17 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [15/Feb/2023:04:44:10 +0000] "POST /api/v1/notes/create HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [15/Feb/2023:04:44:52 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 292 "-" "PostmanRuntime/7.31.0"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:03 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:03 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:03 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:03 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:03 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:04 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:04 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:04 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:04 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:04 +0000] "POST /api/v1/notes HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:04 +0000] "GET /api/v1/notes HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:04 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:04 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:05 +0000] "GET /api/v1/notes/63ec6404e1e46d588c448d33 HTTP/1.1" 201 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:05 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:05 +0000] "PUT /api/v1/notes/63ec6404e1e46d588c448d33 HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:05 +0000] "PUT /api/v1/notes/63ec6404e1e46d588c448d33 HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:05 +0000] "PUT /api/v1/notes/63ec6404e1e46d588c448d33/isArchive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:05 +0000] "PUT /api/v1/notes/63ec6404e1e46d588c448d33/isTrash HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:48:06 +0000] "DELETE /api/v1/notes/63ec6404e1e46d588c448d33 HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:43 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:43 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:43 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:43 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:43 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:44 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:44 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:44 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:44 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:44 +0000] "GET /api/v1/notes HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:45 +0000] "GET /api/v1/notes/63ec646813a06926d429344b HTTP/1.1" 201 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:45 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:45 +0000] "PUT /api/v1/notes/63ec646813a06926d429344b HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:45 +0000] "PUT /api/v1/notes/63ec646813a06926d429344b HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:45 +0000] "PUT /api/v1/notes/63ec646813a06926d429344b/isArchive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:45 +0000] "PUT /api/v1/notes/63ec646813a06926d429344b/isTrash HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:49:46 +0000] "DELETE /api/v1/notes/63ec646813a06926d429344b HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:31 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:31 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:31 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:31 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:31 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:32 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:32 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:32 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:32 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:33 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 201 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:33 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:33 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:33 +0000] "GET /api/v1/notes/63ec64d4a602c045003ecbf9 HTTP/1.1" 201 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:33 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:33 +0000] "PUT /api/v1/notes/63ec64d4a602c045003ecbf9 HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:33 +0000] "PUT /api/v1/notes/63ec64d4a602c045003ecbf9 HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:33 +0000] "PUT /api/v1/notes/63ec64d4a602c045003ecbf9/isArchive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:34 +0000] "PUT /api/v1/notes/63ec64d4a602c045003ecbf9/isTrash HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:51:34 +0000] "DELETE /api/v1/notes/63ec64d4a602c045003ecbf9 HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:25 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:25 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:25 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:25 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:25 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:25 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:26 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:26 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:26 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:26 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 201 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:26 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:26 +0000] "GET /api/v1/notes/ HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:26 +0000] "GET /api/v1/notes/63ec650a93f72000440cf1e2 HTTP/1.1" 201 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:26 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:27 +0000] "PUT /api/v1/notes/63ec650a93f72000440cf1e2 HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:27 +0000] "PUT /api/v1/notes/63ec650a93f72000440cf1e2 HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:27 +0000] "PUT /api/v1/notes/63ec650a93f72000440cf1e2/isArchive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:27 +0000] "PUT /api/v1/notes/63ec650a93f72000440cf1e2/isTrash HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:52:27 +0000] "DELETE /api/v1/notes/63ec650a93f72000440cf1e2 HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:20 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:20 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:20 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:20 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:20 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:21 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:21 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:21 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:21 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:21 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 201 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:22 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:22 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:22 +0000] "GET /api/v1/notes/63ec657d10315338fc618b9f HTTP/1.1" 201 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:22 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:22 +0000] "PUT /api/v1/notes/63ec657d10315338fc618b9f HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:22 +0000] "PUT /api/v1/notes/63ec657d10315338fc618b9f HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:22 +0000] "PUT /api/v1/notes/63ec657d10315338fc618b9f/isArchive HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:22 +0000] "PUT /api/v1/notes/63ec657d10315338fc618b9f/isTrash HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:54:23 +0000] "DELETE /api/v1/notes/63ec657d10315338fc618b9f HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:55:58 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:55:58 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:55:58 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:55:58 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:55:59 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:55:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:55:59 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:55:59 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:56:00 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:56:00 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:56:00 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 201 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:56:00 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:56:00 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:56:00 +0000] "GET /api/v1/notes/63ec65df1e94fe4e6cc1caef HTTP/1.1" 201 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:56:00 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:56:00 +0000] "PUT /api/v1/notes/63ec65df1e94fe4e6cc1caef HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:56:01 +0000] "PUT /api/v1/notes/63ec65df1e94fe4e6cc1caef HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:56:01 +0000] "DELETE /api/v1/notes/63ec65df1e94fe4e6cc1caef HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:18 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:18 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:18 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:18 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:18 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:18 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:18 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:19 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:19 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:19 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 201 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:19 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:19 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:19 +0000] "GET /api/v1/notes/63ec666a8580bd3fc028b49b HTTP/1.1" 201 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:19 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:20 +0000] "PUT /api/v1/notes/63ec666a8580bd3fc028b49b HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:58:20 +0000] "DELETE /api/v1/notes//:_id HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:17 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:17 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:17 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:17 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:17 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:17 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:17 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:18 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:18 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:18 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 201 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:18 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:18 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:18 +0000] "GET /api/v1/notes/63ec66a6ef60e862545ff79e HTTP/1.1" 201 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:18 +0000] "GET /api/v1/notes/qwertyuiop HTTP/1.1" 500 132 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:19 +0000] "PUT /api/v1/notes/63ec66a6ef60e862545ff79e HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:04:59:19 +0000] "DELETE /api/v1/notes/:_id HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:54 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:54 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:54 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:54 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:54 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:55 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:55 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:55 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:55 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:56 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 201 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:56 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:56 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:56 +0000] "GET /api/v1/notes/63ecc5b768793f5be867c32c HTTP/1.1" 201 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:56 +0000] "GET /api/v1/notes/shdvdv HTTP/1.1" 500 128 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:56 +0000] "PUT /api/v1/notes/63ecc5b768793f5be867c32c HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Feb/2023:11:44:56 +0000] "DELETE /api/v1/notes/63ecc5b768793f5be867c32c HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
