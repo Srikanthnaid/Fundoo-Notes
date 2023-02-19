@@ -1,0 +1,50 @@
+A swagger is an api documentation  that allows to describe the sr=tructure of your api 
+
+it support yaml and json that contain details of entire your api
+
+the swagger definition of an api can be divided into 3 different sections
+
+1.the meta information
+2.the path items
+3.resuable compnents
+
+1 the meta information:-in this section you give the ouerall information of api
+like{
+    swagger: 2.0
+    info:{
+        verson:
+        title:
+    },
+    //call the base path to consume the api
+    host:
+    basepath:
+    schema:
+    consumes:
+    produces:
+}
+
+2 the path item:- in this sectio having end-points of your API under ehich you can specify HTTp
+endpoint are relative to the base URL
+path:{
+    /users/Register:{
+        //here http method using (get,put,delete and post)
+        post:{
+            description:
+        }
+    }
+}
+
+the path items can be divided into two types
+2.1 Parameters
+2.2 responses
+
+RESPONSES:-by using http status code to describe (here 200 means successfull responses and 400 are un-successfull responses)
+
+responses:{
+    201:{
+        description:"success"
+    },
+    404:{
+        description:"not found!!"
+    }
+}

@@ -294,9 +294,9 @@ describe('User APIs Test', () => {
     });
   });
 
-  // 20 - Test case to delete note by id
-  describe('20.Delete note by id', () => {
-    it('20.Given note id should delete particular note', (done) => {
+  // 17 - Test case to delete note by id
+  describe('17.Delete note by id', () => {
+    it('17.Given note id should delete particular note', (done) => {
       request(app)
         .delete(`/api/v1/notes/${id}`)
         .set('authorization', `Bearer ${token}`)
@@ -306,5 +306,81 @@ describe('User APIs Test', () => {
         });
     });
   });
+
+  //18 test-case for Archive note.
+  describe('18.Archive not by id with Authorization', () => {
+    it('18.Given valid id', (done) => {
+      request(app)
+        .put(`/api/v1/notes/${id}/Archive`)
+        .set('authorization', `Bearer ${token}`)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(202);
+          done()
+        })
+    })
+  })
+
+  //19 test-case for archive note with invalid id
+  describe('19. Achive note bu invalid id',()=>{
+    it('19. Given invalid id should throw the return satatus code 500',(done)=>{
+      request(app)
+      .put(`/api/v1/notes/scgh/Archive`)
+      .set('authorization', `Bearer ${token}`)
+      .end((err,res)=>{
+        expect(res.statusCode).to.be.equal(500);
+        done();
+      })
+    })
+  })
+
+  //20 test case for not Archive without  authorization
+  describe('20.without authorization',()=>{
+    it('20.Given data of archive note without authorization it will throw return status code 400 ',(done)=>{
+      request(app)
+      .put(`/api/v1/notes/${id}/Archive`)
+      .end((err,res)=>{
+        expect(res.statusCode).to.be.equal(400);
+        done();
+      })
+    })
+  })
+
+  //21 test-case for trash note with id
+  describe('21. Achive note with valid id',()=>{
+    it('21. Given valid id should throw the return satatus code 200',(done)=>{
+      request(app)
+      .put(`/api/v1/notes/${id}/Trash`)
+      .set('authorization', `Bearer ${token}`)
+      .end((err,res)=>{
+        expect(res.statusCode).to.be.equal(202);
+        done();
+      })
+    })
+  })
+
+  /* //22 test-case for trash note with invalid id
+  describe('22. Trash note but invalid id',()=>{
+    it('22. Given invalid id should throw the return satatus code 500',(done)=>{
+      request(app)
+      .put(`/api/v1/notes/asdghsaxg/Trash`)
+      .set('authorization', `Bearer ${token}`)
+      .end((err,res)=>{
+        expect(res.statusCode).to.be.equal(500);
+        done();
+      })
+    })
+  }) */
+
+  //23 test-case of trash note without authorization
+  describe('23.without authorization',()=>{
+    it('23.Given data of trash note without authorization it will throw return status code 400 ',(done)=>{
+      request(app)
+      .put(`/api/v1/notes/${id}/Trash`)
+      .end((err,res)=>{
+        expect(res.statusCode).to.be.equal(400);
+        done();
+      })
+    })
+  })
 });
 

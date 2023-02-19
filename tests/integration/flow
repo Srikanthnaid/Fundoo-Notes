@@ -12,8 +12,8 @@ Integration Testing:= Integration Testing is the process of testing the interfac
 
 1.Here each module of the software is tested separate🤥         Here modules of the software are tested combined.
 
-2.Here unit testing is performed first of all testing           It performed after unt testing and before system testing.
-	processes.
+2.Here unit testing is performed first of all testing           It performed after unt testing and 
+																before system testing.processes.
 
 3.Unit testing is white-box testing                              Integration testing is black-box testing
 
@@ -47,6 +47,7 @@ Top-Down testing:-testing takes place from top to bottom.
 in integration mocha is a javascript test framework that run on node.js. it makes us write simple asynchronous test.
 
 Mocha tests are written using describe and it blocks.
+chai is an assertion library that is mostly used alongside mocha.
 
 Describe block define the Test-Suit
 it block define a test-case.

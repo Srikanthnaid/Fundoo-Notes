@@ -1,0 +1,56 @@
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:32 +0000] "POST /api/v1/users/Register HTTP/1.1" 201 332 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:32 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:32 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:32 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:32 +0000] "POST /api/v1/users/Register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 286 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:32 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:33 +0000] "POST /api/v1/users/login HTTP/1.1" 500 199 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:33 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:33 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:33 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 201 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:33 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:33 +0000] "GET /api/v1/notes/allNote HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:34 +0000] "GET /api/v1/notes/63f0515d37b46665b0b99d51 HTTP/1.1" 201 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:34 +0000] "GET /api/v1/notes/shdvdv HTTP/1.1" 500 128 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:34 +0000] "PUT /api/v1/notes/63f0515d37b46665b0b99d51 HTTP/1.1" 202 299 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:34 +0000] "DELETE /api/v1/notes/63f0515d37b46665b0b99d51 HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:34 +0000] "PUT /api/v1/notes/63f0515d37b46665b0b99d51/Archive HTTP/1.1" 202 292 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:34 +0000] "PUT /api/v1/notes/scgh/Archive HTTP/1.1" 500 137 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:34 +0000] "PUT /api/v1/notes/63f0515d37b46665b0b99d51/Archive HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:35 +0000] "PUT /api/v1/notes/63f0515d37b46665b0b99d51/Trash HTTP/1.1" 202 288 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [18/Feb/2023:04:17:35 +0000] "PUT /api/v1/notes/63f0515d37b46665b0b99d51/Trash HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [18/Feb/2023:04:17:56 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50"
+
+info: ::1 - - [18/Feb/2023:04:17:56 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50"
+
+info: ::1 - - [18/Feb/2023:04:17:56 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50"
+
+info: ::1 - - [18/Feb/2023:04:17:56 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50"
+
+info: ::1 - - [18/Feb/2023:04:17:56 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50"
+
+info: ::1 - - [18/Feb/2023:04:17:57 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50"
+

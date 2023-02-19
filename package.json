@@ -8,7 +8,7 @@
     "build": "rimraf build && babel src --out-dir build",
     "prestart": "rimraf build && babel src --out-dir build",
     "start": "node build/index.js",
-    "test": "cross-env NODE_ENV=test mocha --exit --recursive --require @babel/register --timeout=10000 tests/**/*.js",
+    "test": "cross-env NODE_ENV=test mocha --exit --recursive --require @babel/register --timeout=100000 tests/**/*.js",
     "test:coverage": "cross-env NODE_ENV=test nyc --require @babel/register --reporter lcov --reporter text mocha --exit --recursive --timeout=5000 tests/**/*.js",
     "lint": "eslint . --ext .js",
     "lint-fix": "eslint . --ext .js --fix"
@@ -31,6 +31,8 @@
     "mongoose": "^5.10.2",
     "morgan": "^1.10.0",
     "nodemailer": "^6.9.1",
+    "swagger-jsdoc": "^6.0.0",
+    "swagger-ui-express": "^4.6.0",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.0"
   },

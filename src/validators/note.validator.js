@@ -1,4 +1,4 @@
-import Joi from '@hapi/joi';
+import Joi from '@hapi/joi';//joi allows to create a blue print of javascript object
 
 export const newNoteValidator = (req, res, next) => {
   const schema = Joi.object({

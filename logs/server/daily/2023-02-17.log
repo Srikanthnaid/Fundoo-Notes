@@ -1,0 +1,294 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:15:29.257Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:15:29.295Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:16:21.056Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:16:21.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:17:01.681Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:17:01.709Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:17:07.407Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:17:07.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:19:06.451Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:19:06.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:20:54.808Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:20:54.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:21:27.830Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:21:27.869Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:38:45.615Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:39:12.061Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token . in JSON at position 23
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T04:42:51.259Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 26
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T04:44:07.365Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T04:46:58.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:54:51.728Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:54:51.777Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:01:33.474Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:01:33.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:16:02.028Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:16:02.077Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:31:57.438Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:31:57.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:32:27.260Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:32:27.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:32:47.373Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:32:47.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:32:56.332Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:32:56.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:33:21.595Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:33:21.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:33:49.781Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:33:49.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:34:44.950Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:34:44.991Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:36:23.007Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:36:23.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:36:29.538Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:36:29.577Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T05:41:16.295Z"}
+error: 
+    status - 500 
+    message - Error: Already Exist EmailId
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T05:41:34.305Z"}
+error: 
+    status - 500 
+    message - Error: Already Exist EmailId
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T05:44:54.129Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:45:30.091Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:45:30.156Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T05:50:08.139Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:50:08.218Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 
+ in JSON at position 29
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T05:53:14.867Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token 
+ in JSON at position 29
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T05:53:44.642Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T06:21:48.982Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:21:49.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:08:02.121Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:08:02.163Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:36:50.148Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:36:50.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:07:57.900Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:07:57.968Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:13:25.448Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:13:25.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:21:06.249Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:21:06.381Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:19:43.991Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:20:46.137Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:21:19.966Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:21:28.922Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:21:37.305Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:21:52.617Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:22:36.174Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:54:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:24:47.122Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:54:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:25:46.254Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token e in JSON at position 2
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:28:15.331Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:54:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:29:23.316Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 35
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:525:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:30:13.595Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:54:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:30:28.916Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:51:39.031Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T13:04:57.829Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T13:05:10.980Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T13:05:26.225Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T13:05:58.126Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T13:06:28.972Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T13:07:04.189Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T13:07:04.220Z"}

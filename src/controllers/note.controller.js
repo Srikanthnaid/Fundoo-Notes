@@ -96,3 +96,30 @@ export const createNewNote = async (req, res, next) => {
     next(error);
   }
 };
+
+export const archiveNote = async(req,res,next)=>{
+  try {
+    const data = await NoteService.archiveNote(req.params._id);
+    res.status(HttpStatus.ACCEPTED).json({
+      code:HttpStatus.ACCEPTED,
+      data:data,
+      message:`note Archived successfilly`
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const trashNote = async(req,res,next)=>{
+  try {
+    const data = await NoteService.trashNote(req.params._id);
+    res.status(HttpStatus.ACCEPTED).json({
+      code:HttpStatus.ACCEPTED,
+      data: data,
+      message:`note Trash successfully`
+    })
+  } catch (error) {
+    
+  }
+}
+

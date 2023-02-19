@@ -1,4 +1,5 @@
 import HttpStatus from 'http-status-codes';
+import logger from '../config/logger';
 import * as UserService from '../services/user.service';
 
 
@@ -10,6 +11,7 @@ import * as UserService from '../services/user.service';
  */
 export const registerNewUser = async (req, res, next) => {
 	try {
+		logger.info('register new user in the database')
 		const data = await UserService.newUserRegister(req.body);
 		res.status(HttpStatus.CREATED).json({
 			code: HttpStatus.CREATED,
