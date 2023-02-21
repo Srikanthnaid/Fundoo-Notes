@@ -1,0 +1,318 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T03:52:04.467Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T03:52:04.515Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:27:03.504Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:27:03.544Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:33:50.493Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:33:50.541Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:35:43.912Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:35:43.952Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:35:51.217Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:35:51.263Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:36:18.763Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:36:18.820Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:37:05.723Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:37:05.763Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:37:30.389Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:37:30.435Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:37:39.646Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:37:39.691Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:37:48.204Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:37:48.256Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:38:35.139Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:38:35.187Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:40:00.239Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:40:00.292Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:40:45.489Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:40:45.531Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:41:48.022Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:41:48.072Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:42:25.282Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:42:25.351Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:45:04.400Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:45:04.467Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:50:55.473Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:50:55.514Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:51:02.260Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:51:02.309Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:51:10.101Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:51:10.150Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:51:41.583Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:51:41.634Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:52:00.494Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:52:00.550Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:52:39.506Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:52:39.561Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:52:51.341Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:52:51.385Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:52:59.396Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:52:59.452Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:55:07.684Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:55:07.741Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:55:20.854Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:55:20.914Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:55:41.930Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:55:41.972Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:55:59.187Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:55:59.243Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:56:08.864Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:56:08.907Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:56:20.701Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:56:20.749Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:57:06.065Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:57:06.108Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:58:09.035Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:58:09.080Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:58:19.318Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:58:19.365Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:59:05.024Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:59:05.080Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T04:59:22.359Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:59:22.419Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:00:14.214Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:00:14.278Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:01:22.100Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:01:22.147Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:02:12.660Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:02:12.711Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:02:24.381Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:02:24.434Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:03:18.443Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:03:18.486Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:05:34.360Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:05:34.402Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:24:23.586Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:24:23.632Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:24:40.956Z"}
+info: register new user in the database {"timestamp":"2023-02-20T05:26:20.740Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:35:14.495Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:35:14.549Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:35:43.953Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:35:44.001Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:37:09.887Z"}
+info: register new user in the database {"timestamp":"2023-02-20T05:37:22.610Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:41:34.044Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:41:34.090Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:42:11.500Z"}
+info: register new user in the database {"timestamp":"2023-02-20T05:42:23.628Z"}
+error: 
+    status - 500 
+    message - Error: Already Exist EmailId
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:42:23.718Z"}
+info: register new user in the database {"timestamp":"2023-02-20T05:42:34.933Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpwd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-02-20T05:44:12.016Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/resetpwd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:44:43.407Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at newNoteValidator (C:\Users\srikanth naidu\Fundoo-Notes\src\validators\/note.validator.js:16:5)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:46:33.904Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "create" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:48:59.386Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:54:12.365Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:54:12.430Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:54:53.759Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:54:53.808Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:55:11.226Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:55:11.262Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/allNote 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-20T05:55:58.113Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:03:35.977Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:03:36.036Z"}
+info: register new user in the database {"timestamp":"2023-02-20T09:10:06.093Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\srikanth naidu\Fundoo-Notes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\srikanth naidu\Fundoo-Notes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/resetpwd 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-20T09:12:18.217Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T11:19:27.940Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T11:19:27.992Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password please select forgot password http://localhost:3000/api/v1/users/forgotpwd or reset passwor click here http://localhost:3000/api/v1/users/resetpwd 
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:36:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T11:20:11.865Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee3$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:54:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T11:21:06.773Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpwd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-02-20T11:21:51.558Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T11:25:52.387Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T11:25:52.509Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T11:38:12.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T11:38:59.202Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T11:38:59.249Z"}
+info: register new user in the database {"timestamp":"2023-02-20T11:45:55.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T11:48:13.847Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T11:48:13.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T11:48:38.749Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T11:48:38.797Z"}
+info: register new user in the database {"timestamp":"2023-02-20T11:48:59.032Z"}
+error: 
+    status - 500 
+    message - Error: Already Exist EmailId
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T11:48:59.129Z"}
+info: register new user in the database {"timestamp":"2023-02-20T11:49:11.069Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpwd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-02-20T13:19:55.173Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:26:19.155Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:26:19.202Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpwd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-02-20T13:29:27.755Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpwd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-02-20T13:30:08.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:34:13.192Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:34:13.246Z"}

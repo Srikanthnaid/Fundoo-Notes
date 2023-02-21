@@ -5,7 +5,7 @@
         "title": "Fundoo Notes",
         "description": "Fundoo Notes CLI"
     },
-    "host": "localhost:4000",
+    "host": "localhost:3000",
     "basePath": "/api/v1/",
     "tags": [
         {
@@ -109,6 +109,291 @@
                     }
                 }
             }
+        },
+        "/users/resetpwd": {
+            "put": {
+                "tags": [
+                    "User"
+                ],
+                "description": "Reset New Password",
+                "parameters": [
+                    {
+                        "name": "Reset password",
+                        "in": "body",
+                        "description": "resetting for new password",
+                        "schema": {
+                            "$ref": "#/definitions/ResetPwd"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "202": {
+                        "description": "Password updated successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    },
+                    "400": {
+                        "description": "Error: Bad Request"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/notes/create": {
+            "post": {
+                "tags": [
+                    "Notes"
+                ],
+                "description": "New note creation",
+                "parameters": [
+                    {
+                        "name": "Note",
+                        "in": "body",
+                        "description": "Create Note",
+                        "schema": {
+                            "$ref": "#/definitions/CreateNote"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Note Created Successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    },
+                    "400": {
+                        "description": "Error: Bad Request"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/notes/allNote":{
+            "get": {
+                "tags": [
+                    "Notes"
+                ],
+                "description": "Get all notes of logged in user",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "202": {
+                        "description": "All Notes fetched Successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    },
+                    "400": {
+                        "description": "Error: Bad Request"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/notes/{_id}": {
+            "get": {
+                "tags": [
+                    "Notes"
+                ],
+                "description": "Get a note by id",
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "description": "Get a particular Note",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Note fetched Successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    },
+                    "400": {
+                        "description": "Error: Bad Request"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "put": {
+                "tags": [
+                    "Notes"
+                ],
+                "description": "Update a note by id",
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "description": "Update a particular Note",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "Update Note",
+                        "in": "body",
+                        "description": "Update particular Note",
+                        "schema": {
+                            "$ref": "#/definitions/UpdateNote"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "202": {
+                        "description": "Note updated Successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    },
+                    "400": {
+                        "description": "Error: Bad Request"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            },
+            "delete": {
+                "tags": [
+                    "Notes"
+                ],
+                "description": "Delete a note by id",
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "description": "Delete a particular Note",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "202": {
+                        "description": "Note updated Successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    },
+                    "400": {
+                        "description": "Error: Bad Request"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/notes/{_id}/Trash": {
+            "put": {
+                "tags": [
+                    "Notes"
+                ],
+                "description": "Update trash status of a note by id",
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "description": "Trash a Note",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "202": {
+                        "description": "Note trashed Successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    },
+                    "400": {
+                        "description": "Error: Bad Request"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/notes/{_id}/Archive": {
+            "put": {
+                "tags": [
+                    "Notes"
+                ],
+                "description": "Update archive status of a note by id",
+                "parameters": [
+                    {
+                        "name": "_id",
+                        "description": "Archive a Note",
+                        "in": "path",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "202": {
+                        "description": "Note archived Successfully"
+                    },
+                    "500": {
+                        "description": "Internal Server Error"
+                    },
+                    "400": {
+                        "description": "Error: Bad Request"
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
         }
     },
     "definitions": {
@@ -145,11 +430,48 @@
             "properties": {
                 "email": {
                     "type": "string"
-                },
+                }
+            }
+        },
+        "ResetPwd": {
+            "type": "object",
+            "properties": {
                 "password": {
                     "type": "string"
                 }
             }
+        },
+        "CreateNote": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                }
+            }
+        },
+        "UpdateNote": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "colour": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "JWT": {
+            "type": "apiKey",
+            "name": "authorization",
+            "in": "header"
         }
     }
 }
