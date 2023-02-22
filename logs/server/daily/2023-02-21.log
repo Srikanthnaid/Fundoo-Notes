@@ -1,0 +1,1316 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T05:32:27.512Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T05:32:27.561Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/Allnotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-21T05:33:46.690Z"}
+error: 
+    status - 500 
+    message - Error: Invalid Password please select forgot password http://localhost:3000/api/v1/users/forgotpwd or reset passwor click here http://localhost:3000/api/v1/users/resetpwd 
+    at _callee2$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:36:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T05:41:44.112Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/resetpwd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-02-21T05:42:57.719Z"}
+info: register new user in the database {"timestamp":"2023-02-21T05:45:36.925Z"}
+error: 
+    status - 500 
+    message - ReferenceError: redisClient is not defined
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:6:13)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T05:49:16.309Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T05:50:34.834Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T05:50:34.910Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T05:50:45.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T05:51:53.396Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T05:51:53.439Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T05:51:56.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T05:55:25.008Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T05:55:25.030Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T05:56:08.863Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T05:56:08.927Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:11:12.174Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:11:12.243Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:11:16.496Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:11:22.821Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:11:27.561Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:12:51.496Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:12:51.576Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:13:58.154Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:13:58.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:14:40.815Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:14:40.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:14:52.874Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:14:52.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:15:06.630Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:15:06.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:15:29.624Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:15:29.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:16:14.810Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:16:14.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:16:41.470Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:16:41.513Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:17:31.004Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:17:31.050Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:17:38.085Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:18:58.459Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:18:58.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:21:14.632Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:21:14.666Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:21:41.956Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:21:51.304Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:23:46.472Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:25:22.803Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:26:55.448Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:26:55.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:27:17.605Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:27:17.646Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:28:08.942Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:28:08.986Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:28:12.503Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:34:28.046Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:34:55.376Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:34:56.840Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:34:58.580Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:39:52.279Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-21T06:42:31.582Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:42:31.631Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:50:24.150Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:50:43.779Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:51:46.418Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:52:02.566Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:53:10.565Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:54:36.690Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:54:59.475Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-21T06:55:52.642Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:55:52.708Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:57:47.442Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:57:54.864Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:58:05.260Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:58:06.618Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-21T06:58:33.451Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:58:33.485Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-21T06:58:42.926Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T06:58:42.978Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T06:58:45.919Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T07:02:15.254Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T07:02:30.875Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-21T07:03:50.196Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T07:03:50.238Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T07:03:55.635Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T07:04:02.695Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T07:04:05.879Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-21T07:06:46.245Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T07:06:46.304Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T07:06:54.875Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T07:14:22.144Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'del')
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T07:14:37.334Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-21T07:19:46.503Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T07:19:46.547Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T07:19:49.242Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-21T07:23:31.496Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T07:23:31.532Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T07:23:37.229Z"}
+info: Server started at http://localhost:2000/api/v1/ {"timestamp":"2023-02-21T08:19:52.158Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:19:52.337Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:31:21.423Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:31:25.225Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:33:07.985Z"}
+info: register new user in the database {"timestamp":"2023-02-21T08:34:22.199Z"}
+error: 
+    status - 500 
+    message - Error: Already Exist EmailId
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:34:24.854Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:34:34.618Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:34:55.646Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:35:37.889Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:37:03.956Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:37:34.392Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:37:36.268Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:37:52.687Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:39:46.197Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:39:49.118Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:39:51.490Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:39:55.233Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:39:58.375Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:40:03.385Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:41:42.291Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:41:46.299Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:43:22.233Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:43:46.698Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:44:11.238Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:45:03.570Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:45:13.308Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:45:33.406Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:45:35.949Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:45:44.380Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:45:46.528Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:47:45.014Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:49:40.712Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:50:22.236Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T08:50:42.275Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:50:42.326Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T08:52:58.885Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:52:58.935Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T08:54:19.989Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:54:20.038Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T08:56:02.316Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:56:02.349Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:56:11.098Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T08:56:35.850Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T08:56:35.893Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T08:56:52.368Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:09:14.661Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:09:14.699Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:09:41.591Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:09:41.631Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:10:55.962Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:10:55.998Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/allNote 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-21T09:10:58.465Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:11:42.951Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:11:43.002Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:13:32.334Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:13:32.371Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:13:56.569Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:13:56.608Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:16:23.827Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:16:23.866Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:23:18.990Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:23:19.089Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:23:27.467Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:23:27.506Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:23:39.199Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:23:39.234Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:26:55.533Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:26:55.584Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:35:12.814Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:35:12.857Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:37:55.671Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:37:55.707Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:38:17.720Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:38:17.754Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:38:32.973Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:38:33.007Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:39:06.994Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:39:07.061Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:39:17.295Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:39:17.329Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T09:39:23.123Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:40:19.582Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:40:19.623Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:40:32.378Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:40:32.412Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:41:16.013Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:41:16.047Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:43:45.051Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:43:45.095Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:44:15.524Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:44:15.558Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:46:04.617Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:46:04.655Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:46:14.074Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:46:14.115Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:46:42.467Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:46:42.518Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:48:04.210Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:48:04.245Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:48:48.627Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:48:48.663Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T09:49:01.221Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:57:31.379Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:57:31.415Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:57:46.297Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:57:46.338Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:58:41.880Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:58:41.909Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T09:59:27.975Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T09:59:28.015Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T09:59:38.853Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T09:59:53.126Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T09:59:56.776Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T10:11:18.477Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:13:26.027Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:13:26.086Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:18:40.721Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:18:40.772Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:20:49.328Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:20:49.363Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:21:13.751Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:21:13.800Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:21:43.341Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:21:43.377Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T10:21:45.654Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T10:21:50.433Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:24:35.335Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:24:35.371Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:25:04.776Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:25:04.811Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:26:42.325Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:26:42.364Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:27:13.834Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:27:13.867Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:31:08.377Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:31:08.422Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:36:39.317Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:36:39.389Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:39:45.655Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:39:45.698Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:40:10.174Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:40:10.205Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:40:57.886Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:40:57.921Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:42:03.241Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:42:03.270Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:48:28.263Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:48:28.302Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:50:44.846Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:50:44.891Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:51:07.501Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:51:07.589Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:52:20.933Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:52:20.979Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:54:36.220Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:54:36.264Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:55:06.768Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:55:06.805Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:55:57.232Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:55:57.268Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:56:31.172Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:56:31.207Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:56:52.650Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:56:52.686Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T10:57:22.273Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T10:57:22.305Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:03:43.589Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:03:43.630Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:04:04.561Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:04:04.600Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:04:48.296Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:04:48.345Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:16:07.254Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:16:07.298Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:19:03.666Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:19:03.701Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T11:19:15.381Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T11:19:21.733Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:19:58.725Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:19:58.774Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T11:20:08.807Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:477:31)
+    at Commander.commandsExecutor (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.del (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\srikanth naidu\Fundoo-Notes\src\services\/note.service.js:8:21)
+    at tryCatch (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\srikanth naidu\Fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-21T11:21:55.472Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:23:29.887Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:23:29.943Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:33:37.878Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:33:37.922Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:39:26.951Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:39:27.043Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:39:59.525Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:39:59.582Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:42:25.845Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:42:25.910Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:42:57.368Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:42:57.410Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:44:35.921Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:44:35.960Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:48:28.022Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:48:50.138Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:51:51.955Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:52:02.751Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:53:17.864Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:53:17.922Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:53:27.681Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:53:27.718Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T11:57:44.099Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T11:57:44.135Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T12:10:09.436Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T12:10:09.573Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T15:37:52.239Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T15:37:52.298Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2023-02-21T15:39:24.161Z"}
+info: Connected to the database. {"timestamp":"2023-02-21T15:39:24.229Z"}

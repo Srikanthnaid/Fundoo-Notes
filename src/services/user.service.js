@@ -4,6 +4,7 @@ import bcrypt from 'bcrypt';
 //import jwt
 import jwt from 'jsonwebtoken';
 import { sendMail } from '../utils/user.util';
+import { sender } from '../utils/rabbitmq';
 
 
 //register new user
@@ -13,10 +14,13 @@ export const newUserRegister = async (body) => {
   const hash = bcrypt.hashSync(body.password, salt);
   body.password = hash;
   const data = await User.find({ email: body.email });
+
   if (data.length !== 0) {
     throw new Error('Already Exist EmailId');
   } else {
     const data = await User.create(body);
+    var userData = JSON.stringify({ firstname: data.firstname, lastname: data.lastname, email: data.email });
+    sender(userData);
     return data;
   }
 };
@@ -63,7 +67,7 @@ export const resetPassword = async (body) => {
   const data = await User.findOneAndUpdate({
     email: body.email
   },
-  { password: hash },
-  { new: true });
+    { password: hash },
+    { new: true });
   return data;
 }
